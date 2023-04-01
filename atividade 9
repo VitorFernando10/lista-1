@@ -1,0 +1,9 @@
+algoritimo(converter moeda)
+  real reais, dolares
+
+   escreva("Digite o valor em reais na sua carteira: ")
+   leia(reais)
+   
+   dolares = reais / 3,45
+   
+   escreva("Com R$", reais, "Você pode comprar US$", dolares)
