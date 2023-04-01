@@ -1,0 +1,12 @@
+algoritimo( salario do funcionario)
+ real salario, mes, dias,horas
+
+   escreva("Digite o número de dias trabalhados no mês: ")
+   leia(dias)
+
+   horas = dias * 8/8 horas trabalhadas por dia
+
+   horas = 25.0/valor da hora trabalhada
+   mes = salario * horas
+
+   escreva("O salário do funcionário é de R$", mes)
