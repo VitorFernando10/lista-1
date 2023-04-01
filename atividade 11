@@ -1,0 +1,11 @@
+algoritimo(equacao de delta)
+real a,b,c,delta
+    escreva("digite um valor de a:")
+    leia(a)
+    escreva("deigite um valor de b:")
+    leia(b)
+    escreva("digite um valor de c:")
+    leia(c)
+
+      delta = b*b - 4*a*c
+      escreva("o valor de delta e:", delta)
