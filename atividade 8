@@ -1,0 +1,20 @@
+algoritimo(converter distancia)
+ real distanciaMetros, distanciaKm, distanciaHm, distanciaDam, distanciaDm, distanciaCm, distanciaMm 
+
+   escreva("Digite a distancia em metros: ")
+   leia(distanciaMetros)
+
+   distanciaKm = distanciaMetros / 1000
+   distanciaHm = distanciaMetros / 100
+   distanciaDam = distanciaMetros / 10
+   distanciaDm = distanciaMetros * 10
+   distanciaCm = distanciaMetros * 100
+   distanciaMm = distanciaMetros * 1000
+
+   escreva("A distância de ", distanciaMetros, "m corresponde a:")
+   escreva("\n", distanciaKm, "Km")
+   escreva("\n", distanciaHm, "Hm")
+   escreva("\n", distanciaDam, "Dam")
+   escreva("\n", distanciaDm, "dm")
+   escreva("\n", distanciaCm, "cm")
+   escreva("\n", distanciaMm, "mm")
