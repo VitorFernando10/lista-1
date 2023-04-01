@@ -1,0 +1,14 @@
+algoritimo(calcular para pintar a parede)
+   real : largura, altura, area, litrosdeTinta
+
+   escreva("Digite a largura da parede em metros: ")
+   leia(largura)
+
+   escreva("Digite a altura da parede em metros: ")
+   leia(altura)
+
+   area = largura * altura
+   litrosdeTinta = area / 2
+
+   escreva("A área a ser pintada é de ", area, "m²")
+   escreva("Será necessário ", litrosdeTinta, " litro(s) de tinta para pintar a parede")
