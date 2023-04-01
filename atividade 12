@@ -1,0 +1,10 @@
+algoritim(preco de um produto)
+   real: preco, precopromocao
+
+
+   escreva("Digite o preço do produto: ")
+   leia(preco)
+
+   precopromocao = preco - (preco * 0.05)
+
+   escreva("O preço promocional do produto é R$", precopromocao)
